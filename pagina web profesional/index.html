@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sitio Web Profesional</title>
+
+  <!--ICONOS-->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--SLIDER-->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <!--STYLES-->
+
+  <link rel="stylesheet" href="css/documento.css">
+  
+</head>
+<body>
+
+<div class="wrapper">
+    <!--BANNER-->
+  <div class="banner-wrapper">
+    <header>
+      <div class="header-inner">
+      <a href="index.html" id="logo">
+      <img src="img/pics/fazt_logo.png" alt="LogoDoTreino.com">
+      </a>
+        <nav>
+
+          <a href="#" id="menu-icon">
+          <i class="fa fa-bars"></i>
+            </a>
+
+            <ul>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+
+              <li>
+                <a href="#skills">Habilidades</a>
+              </li> 
+
+              <li>
+                <a href="#portfolio">Portafolio</a>
+              </li>
+
+              <li>
+                <a href="#services">Servicios</a>
+              </li>
+
+              <li>
+                <a href="#contact">Contactos</a>
+              </li>
+
+            </ul>
+
+        </nav>
+      </div>
+    </header>  
+    <!--SLIDER-->
+    <div id="slide-wrap">
+      <section class="slider">
+        
+      <ul>
+        <li><img src="img/slider/slider1.jpg" alt="Arbol"></li>
+        <li><img src="img/slider/slider2.jpg" alt="Señorita"></li>
+        <li><img src="img/slider/slider3.jpg" alt="Bicicleta"></li>
+      </ul>
+      
+      </section>
+    </div>    
+  </div>
+</div>
+<!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+</body>
+</html>
